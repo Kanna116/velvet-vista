@@ -16,7 +16,7 @@ const Footer = () => {
                     <h2 className='text-sm'>Phone: 1-888-838-3022</h2>
                     <h2 className='text-sm'>Hours: Monday – Thursday: 9AM – 7PM ET, Friday: 9AM – 2PM ET</h2>
                 </div>
-                <h1 className='text-sm text-black'>&copy; Klax's Velvet Vista</h1>
+                <h1 className='text-sm text-black'> Klax Velvet Vista</h1>
             </div>
             <div className="footer-two h-full w-1/4  flex flex-col items-start justify-start gap-20">
                 <ul className='[&>li]:text-sm font-light'>
