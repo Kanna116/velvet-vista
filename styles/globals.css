@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-font: 'Excon', sans-serif;
+  --secondary-font: 'Ranade', sans-serif;
+  font-family: var(--primary-font);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.velvet-effect{
+  position: relative;
+  cursor: pointer;
+}
+.velvet-effect::before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding-block: 12px;
+  border-bottom: 3px solid #3e3e3e;
+  transform: scaleX(0%);
+  transition: transform 300ms ease;
+  transform-origin: right;
+  z-index: -1;
+}
+.velvet-effect:hover::before{
+  transform: scaleX(100%);
+  transform-origin: left;
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+
+.bag-product::-webkit-scrollbar{
+  display: none;
+}
