@@ -1,0 +1,1303 @@
+[
+    {
+        "id": "1",
+        "name": "Ruby Ring",
+        "description": "Beautiful ruby ring with diamond accents",
+        "image": "/images/product/rings/ring-1.jpg",
+        "price": 599,
+        "rating": "4.5",
+        "reviewCount": "10k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "2",
+        "name": "Sapphire Necklace",
+        "description": "Elegant sapphire necklace with white gold chain",
+        "image": "/images/product/necklaces/necklace-1.jpg",
+        "price": 899,
+        "rating": "4.8",
+        "reviewCount": "15k",
+        "isFavourite": true,
+        "category": "Necklaces",
+        "inBag": true
+
+    },
+    {
+        "id": "3",
+        "name": "Emerald Earrings",
+        "description": "Stunning emerald earrings with gold setting",
+        "image": "/images/product/earrings/earring-1.jpg",
+        "price": 399,
+        "rating": "4.2",
+        "reviewCount": "8k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "4",
+        "name": "Diamond Bracelet",
+        "description": "Classic diamond bracelet with silver links",
+        "image": "/images/product/bracelets/bracelet-1.jpg",
+        "price": 1299,
+        "rating": "4.9",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "5",
+        "name": "Pearl Pendant",
+        "description": "Timeless pearl pendant with delicate chain",
+        "image": "/images/product/necklaces/necklace-1.jpg",
+        "price": 299,
+        "rating": "4.3",
+        "reviewCount": "12k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "6",
+        "name": "Amethyst Ring",
+        "description": "Gorgeous amethyst ring with rose gold band",
+        "image": "/images/product/rings/ring-2.jpg",
+        "price": 499,
+        "rating": "4.6",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "7",
+        "name": "Topaz Earrings",
+        "description": "Stunning topaz earrings with silver setting",
+        "image": "/images/product/earrings/earring-2.jpg",
+        "price": 399,
+        "rating": "4.4",
+        "reviewCount": "14k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "8",
+        "name": "Ruby Bracelet",
+        "description": "Exquisite ruby bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-2.jpg",
+        "price": 999,
+        "rating": "4.7",
+        "reviewCount": "17k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "9",
+        "name": "Sapphire Ring",
+        "description": "Beautiful sapphire ring with white gold band",
+        "image": "/images/product/rings/ring-3.jpg",
+        "price": 699,
+        "rating": "4.5",
+        "reviewCount": "11k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "10",
+        "name": "Emerald Necklace",
+        "description": "Elegant emerald necklace with gold chain",
+        "image": "/images/product/necklaces/necklace-2.jpg",
+        "price": 799,
+        "rating": "4.3",
+        "reviewCount": "13k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "11",
+        "name": "Diamond Earrings",
+        "description": "Stunning diamond earrings with silver setting",
+        "image": "/images/product/earrings/earring-3.jpg",
+        "price": 1199,
+        "rating": "4.9",
+        "reviewCount": "19k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "12",
+        "name": "Pearl Bracelet",
+        "description": "Classic pearl bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-3.jpg",
+        "price": 399,
+        "rating": "4.2",
+        "reviewCount": "9k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "13",
+        "name": "Amethyst Necklace",
+        "description": "Gorgeous amethyst necklace with silver chain",
+        "image": "/images/product/necklaces/necklace-3.jpg",
+        "price": 499,
+        "rating": "4.6",
+        "reviewCount": "16k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "14",
+        "name": "Topaz Ring",
+        "description": "Beautiful topaz ring with rose gold band",
+        "image": "/images/product/rings/ring-4.jpg",
+        "price": 399,
+        "rating": "4.4",
+        "reviewCount": "12k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "15",
+        "name": "Ruby Earrings",
+        "description": "Stunning ruby earrings with gold setting",
+        "image": "/images/product/earrings/earring-4.jpg",
+        "price": 299,
+        "rating": "4.1",
+        "reviewCount": "7k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "16",
+        "name": "Sapphire Bracelet",
+        "description": "Exquisite sapphire bracelet with silver links",
+        "image": "/images/product/bracelets/bracelet-4.jpg",
+        "price": 899,
+        "rating": "4.8",
+        "reviewCount": "16k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "17",
+        "name": "Emerald Ring",
+        "description": "Gorgeous emerald ring with white gold band",
+        "image": "/images/product/rings/ring-5.jpg",
+        "price": 599,
+        "rating": "4.7",
+        "reviewCount": "15k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "18",
+        "name": "Diamond Necklace",
+        "description": "Elegant diamond necklace with gold chain",
+        "image": "/images/product/necklaces/necklace-4.jpg",
+        "price": 999,
+        "rating": "4.9",
+        "reviewCount": "21k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "19",
+        "name": "Pearl Earrings",
+        "description": "Classic pearl earrings with silver setting",
+        "image": "/images/product/earrings/earring-5.jpg",
+        "price": 299,
+        "rating": "4.3",
+        "reviewCount": "10k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "20",
+        "name": "Amethyst Bracelet",
+        "description": "Exquisite amethyst bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-5.jpg",
+        "price": 599,
+        "rating": "4.6",
+        "reviewCount": "19k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "21",
+        "name": "Topaz Necklace",
+        "description": "Gorgeous topaz necklace with white gold chain",
+        "image": "/images/product/necklaces/necklace-5.jpg",
+        "price": 699,
+        "rating": "4.5",
+        "reviewCount": "14k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "22",
+        "name": "Ruby Pendant",
+        "description": "Beautiful ruby pendant with silver chain",
+        "image": "/images/product/necklaces/necklace-2.jpg",
+        "price": 399,
+        "rating": "4.2",
+        "reviewCount": "11k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "23",
+        "name": "Sapphire Earrings",
+        "description": "Stunning sapphire earrings with gold setting",
+        "image": "/images/product/earrings/earring-6.jpg",
+        "price": 399,
+        "rating": "4.4",
+        "reviewCount": "13k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "24",
+        "name": "Emerald Bracelet",
+        "description": "Classic emerald bracelet with silver links",
+        "image": "/images/product/bracelets/bracelet-6.jpg",
+        "price": 899,
+        "rating": "4.8",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "25",
+        "name": "Diamond Ring",
+        "description": "Gorgeous diamond ring with rose gold band",
+        "image": "/images/product/rings/ring-6.jpg",
+        "price": 799,
+        "rating": "4.7",
+        "reviewCount": "16k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "26",
+        "name": "Pearl Necklace",
+        "description": "Elegant pearl necklace with gold chain",
+        "image": "/images/product/necklaces/necklace-6.jpg",
+        "price": 999,
+        "rating": "4.9",
+        "reviewCount": "22k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "27",
+        "name": "Amethyst Earrings",
+        "description": "Stunning amethyst earrings with silver setting",
+        "image": "/images/product/earrings/earring-7.jpg",
+        "price": 299,
+        "rating": "4.3",
+        "reviewCount": "9k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "28",
+        "name": "Topaz Bracelet",
+        "description": "Exquisite topaz bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-7.jpg",
+        "price": 699,
+        "rating": "4.6",
+        "reviewCount": "17k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "29",
+        "name": "Ruby Choker",
+        "description": "Beautiful ruby choker with white gold chain",
+        "image": "/images/product/necklaces/necklace-7.jpg",
+        "price": 599,
+        "rating": "4.5",
+        "reviewCount": "13k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "30",
+        "name": "Sapphire Ring",
+        "description": "Gorgeous sapphire ring with gold band",
+        "image": "/images/product/rings/ring-7.jpg",
+        "price": 499,
+        "rating": "4.2",
+        "reviewCount": "10k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "31",
+        "name": "Emerald Earrings",
+        "description": "Stunning emerald earrings with silver setting",
+        "image": "/images/product/earrings/earring-8.jpg",
+        "price": 399,
+        "rating": "4.4",
+        "reviewCount": "12k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "32",
+        "name": "Diamond Bracelet",
+        "description": "Exquisite diamond bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-8.jpg",
+        "price": 1099,
+        "rating": "4.8",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "33",
+        "name": "Pearl Pendant",
+        "description": "Timeless pearl pendant with delicate chain",
+        "image": "/images/product/necklaces/necklace-3.jpg",
+        "price": 399,
+        "rating": "4.3",
+        "reviewCount": "11k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "34",
+        "name": "Amethyst Ring",
+        "description": "Gorgeous amethyst ring with white gold band",
+        "image": "/images/product/rings/ring-8.jpg",
+        "price": 499,
+        "rating": "4.6",
+        "reviewCount": "15k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "35",
+        "name": "Topaz Necklace",
+        "description": "Beautiful topaz necklace with gold chain",
+        "image": "/images/product/necklaces/necklace-8.jpg",
+        "price": 799,
+        "rating": "4.4",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "36",
+        "name": "Ruby Earrings",
+        "description": "Stunning ruby earrings with silver setting",
+        "image": "/images/product/earrings/earring-9.jpg",
+        "price": 299,
+        "rating": "4.2",
+        "reviewCount": "13k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "37",
+        "name": "Sapphire Bracelet",
+        "description": "Exquisite sapphire bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-9.jpg",
+        "price": 999,
+        "rating": "4.8",
+        "reviewCount": "22k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "38",
+        "name": "Emerald Ring",
+        "description": "Gorgeous emerald ring with rose gold band",
+        "image": "/images/product/rings/ring-9.jpg",
+        "price": 699,
+        "rating": "4.7",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "39",
+        "name": "Diamond Necklace",
+        "description": "Elegant diamond necklace with white gold chain",
+        "image": "/images/product/necklaces/necklace-9.jpg",
+        "price": 1199,
+        "rating": "4.9",
+        "reviewCount": "25k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "40",
+        "name": "Pearl Earrings",
+        "description": "Classic pearl earrings with gold setting",
+        "image": "/images/product/earrings/earring-10.jpg",
+        "price": 399,
+        "rating": "4.3",
+        "reviewCount": "14k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "41",
+        "name": "Amethyst Pendant",
+        "description": "Elegant amethyst pendant with silver chain",
+        "image": "/images/product/necklaces/necklace-4.jpg",
+        "price": 399,
+        "rating": "4.2",
+        "reviewCount": "11k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "42",
+        "name": "Topaz Ring",
+        "description": "Exquisite topaz ring with gold band",
+        "image": "/images/product/rings/ring-10.jpg",
+        "price": 599,
+        "rating": "4.5",
+        "reviewCount": "16k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "43",
+        "name": "Ruby Bracelet",
+        "description": "Gorgeous ruby bracelet with silver links",
+        "image": "/images/product/bracelets/bracelet-10.jpg",
+        "price": 799,
+        "rating": "4.6",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "44",
+        "name": "Sapphire Earrings",
+        "description": "Stunning sapphire earrings with rose gold setting",
+        "image": "/images/product/earrings/earring-11.jpg",
+        "price": 499,
+        "rating": "4.7",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "45",
+        "name": "Emerald Necklace",
+        "description": "Beautiful emerald necklace with white gold chain",
+        "image": "/images/product/necklaces/necklace-10.jpg",
+        "price": 699,
+        "rating": "4.8",
+        "reviewCount": "22k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "46",
+        "name": "Diamond Pendant",
+        "description": "Classic diamond pendant with delicate chain",
+        "image": "/images/product/necklaces/necklace-5.jpg",
+        "price": 999,
+        "rating": "4.9",
+        "reviewCount": "25k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "47",
+        "name": "Pearl Ring",
+        "description": "Elegant pearl ring with gold band",
+        "image": "/images/product/rings/ring-11.jpg",
+        "price": 399,
+        "rating": "4.3",
+        "reviewCount": "15k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "48",
+        "name": "Amethyst Bracelet",
+        "description": "Gorgeous amethyst bracelet with silver links",
+        "image": "/images/product/bracelets/bracelet-11.jpg",
+        "price": 599,
+        "rating": "4.5",
+        "reviewCount": "17k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "49",
+        "name": "Topaz Pendant",
+        "description": "Exquisite topaz pendant with gold chain",
+        "image": "/images/product/necklaces/necklace-6.jpg",
+        "price": 499,
+        "rating": "4.4",
+        "reviewCount": "14k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "50",
+        "name": "Ruby Necklace",
+        "description": "Beautiful ruby necklace with silver chain",
+        "image": "/images/product/necklaces/necklace-11.jpg",
+        "price": 799,
+        "rating": "4.6",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "51",
+        "name": "Sapphire Bracelet",
+        "description": "Gorgeous sapphire bracelet with rose gold links",
+        "image": "/images/product/bracelets/bracelet-12.jpg",
+        "price": 899,
+        "rating": "4.8",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "52",
+        "name": "Emerald Pendant",
+        "description": "Elegant emerald pendant with white gold chain",
+        "image": "/images/product/necklaces/necklace-7.jpg",
+        "price": 499,
+        "rating": "4.2",
+        "reviewCount": "12k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "53",
+        "name": "Diamond Ring",
+        "description": "Classic diamond ring with gold band",
+        "image": "/images/product/rings/ring-12.jpg",
+        "price": 999,
+        "rating": "4.9",
+        "reviewCount": "22k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "54",
+        "name": "Pearl Bracelet",
+        "description": "Timeless pearl bracelet with silver links",
+        "image": "/images/product/bracelets/bracelet-13.jpg",
+        "price": 399,
+        "rating": "4.3",
+        "reviewCount": "11k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "55",
+        "name": "Amethyst Necklace",
+        "description": "Beautiful amethyst necklace with gold chain",
+        "image": "/images/product/necklaces/necklace-12.jpg",
+        "price": 599,
+        "rating": "4.5",
+        "reviewCount": "16k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "56",
+        "name": "Topaz Earrings",
+        "description": "Gorgeous topaz earrings with white gold setting",
+        "image": "/images/product/earrings/earring-12.jpg",
+        "price": 499,
+        "rating": "4.4",
+        "reviewCount": "15k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "57",
+        "name": "Ruby Choker",
+        "description": "Stunning ruby choker with gold chain",
+        "image": "/images/product/necklaces/necklace-13.jpg",
+        "price": 699,
+        "rating": "4.7",
+        "reviewCount": "19k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "58",
+        "name": "Sapphire Pendant",
+        "description": "Beautiful sapphire pendant with silver chain",
+        "image": "/images/product/necklaces/necklace-8.jpg",
+        "price": 399,
+        "rating": "4.2",
+        "reviewCount": "10k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "59",
+        "name": "Emerald Ring",
+        "description": "Elegant emerald ring with white gold band",
+        "image": "/images/product/rings/ring-13.jpg",
+        "price": 599,
+        "rating": "4.5",
+        "reviewCount": "16k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "60",
+        "name": "Diamond Bracelet",
+        "description": "Exquisite diamond bracelet with rose gold links",
+        "image": "/images/product/bracelets/bracelet-14.jpg",
+        "price": 1299,
+        "rating": "4.9",
+        "reviewCount": "24k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "61",
+        "name": "Pearl Necklace",
+        "description": "Timeless pearl necklace with delicate chain",
+        "image": "/images/product/necklaces/necklace-14.jpg",
+        "price": 499,
+        "rating": "4.3",
+        "reviewCount": "14k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "62",
+        "name": "Amethyst Earrings",
+        "description": "Gorgeous amethyst earrings with gold setting",
+        "image": "/images/product/earrings/earring-13.jpg",
+        "price": 399,
+        "rating": "4.6",
+        "reviewCount": "17k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "63",
+        "name": "Topaz Bracelet",
+        "description": "Beautiful topaz bracelet with silver links",
+        "image": "/images/product/bracelets/bracelet-15.jpg",
+        "price": 799,
+        "rating": "4.8",
+        "reviewCount": "21k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "64",
+        "name": "Ruby Ring",
+        "description": "Stunning ruby ring with rose gold band",
+        "image": "/images/product/rings/ring-14.jpg",
+        "price": 599,
+        "rating": "4.7",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "65",
+        "name": "Diamond Stud Earrings",
+        "description": "Classic diamond stud earrings with platinum setting",
+        "image": "/images/product/earrings/earring-14.jpg",
+        "price": 1599,
+        "rating": "4.9",
+        "reviewCount": "30k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "66",
+        "name": "Opal Pendant",
+        "description": "Captivating opal pendant with sterling silver chain",
+        "image": "/images/product/necklaces/necklace-9.jpg",
+        "price": 699,
+        "rating": "4.5",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "67",
+        "name": "Turquoise Bracelet",
+        "description": "Chic turquoise bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-16.jpg",
+        "price": 899,
+        "rating": "4.7",
+        "reviewCount": "22k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "68",
+        "name": "Citrine Ring",
+        "description": "Radiant citrine ring with yellow gold band",
+        "image": "/images/product/rings/ring-15.jpg",
+        "price": 499,
+        "rating": "4.3",
+        "reviewCount": "15k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "69",
+        "name": "Moonstone Necklace",
+        "description": "Enchanting moonstone necklace with silver chain",
+        "image": "/images/product/necklaces/necklace-15.jpg",
+        "price": 599,
+        "rating": "4.6",
+        "reviewCount": "19k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "70",
+        "name": "Garnet Earrings",
+        "description": "Striking garnet earrings with white gold setting",
+        "image": "/images/product/earrings/earring-15.jpg",
+        "price": 399,
+        "rating": "4.2",
+        "reviewCount": "12k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "71",
+        "name": "Aquamarine Bracelet",
+        "description": "Elegant aquamarine bracelet with rose gold links",
+        "image": "/images/product/bracelets/bracelet-17.jpg",
+        "price": 999,
+        "rating": "4.8",
+        "reviewCount": "25k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "72",
+        "name": "Peridot Ring",
+        "description": "Sparkling peridot ring with yellow gold band",
+        "image": "/images/product/rings/ring-16.jpg",
+        "price": 499,
+        "rating": "4.5",
+        "reviewCount": "17k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "73",
+        "name": "Alexandrite Necklace",
+        "description": "Mesmerizing alexandrite necklace with white gold chain",
+        "image": "/images/product/necklaces/necklace-16.jpg",
+        "price": 1299,
+        "rating": "4.9",
+        "reviewCount": "28k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "74",
+        "name": "Blue Topaz Ring",
+        "description": "Stunning blue topaz ring with silver band",
+        "image": "/images/product/rings/ring-17.jpg",
+        "price": 699,
+        "rating": "4.6",
+        "reviewCount": "21k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "75",
+        "name": "Tanzanite Earrings",
+        "description": "Elegant tanzanite earrings with rose gold setting",
+        "image": "/images/product/earrings/earring-16.jpg",
+        "price": 799,
+        "rating": "4.8",
+        "reviewCount": "23k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "76",
+        "name": "Black Onyx Bracelet",
+        "description": "Sleek black onyx bracelet with sterling silver links",
+        "image": "/images/product/bracelets/bracelet-18.jpg",
+        "price": 599,
+        "rating": "4.7",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "77",
+        "name": "Pink Tourmaline Pendant",
+        "description": "Radiant pink tourmaline pendant with gold chain",
+        "image": "/images/product/necklaces/necklace-10.jpg",
+        "price": 599,
+        "rating": "4.5",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "78",
+        "name": "Coral Ring",
+        "description": "Exotic coral ring with yellow gold band",
+        "image": "/images/product/rings/ring-18.jpg",
+        "price": 399,
+        "rating": "4.2",
+        "reviewCount": "15k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "79",
+        "name": "Jade Necklace",
+        "description": "Timeless jade necklace with white gold chain",
+        "image": "/images/product/necklaces/necklace-17.jpg",
+        "price": 999,
+        "rating": "4.8",
+        "reviewCount": "26k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "80",
+        "name": "Turquoise Earrings",
+        "description": "Charming turquoise earrings with silver setting",
+        "image": "/images/product/earrings/earring-17.jpg",
+        "price": 299,
+        "rating": "4.4",
+        "reviewCount": "17k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "81",
+        "name": "Sunstone Bracelet",
+        "description": "Vibrant sunstone bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-19.jpg",
+        "price": 899,
+        "rating": "4.6",
+        "reviewCount": "22k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "82",
+        "name": "Aventurine Ring",
+        "description": "Gorgeous aventurine ring with rose gold band",
+        "image": "/images/product/rings/ring-19.jpg",
+        "price": 499,
+        "rating": "4.3",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "83",
+        "name": "Carnelian Necklace",
+        "description": "Elegant carnelian necklace with silver chain",
+        "image": "/images/product/necklaces/necklace-18.jpg",
+        "price": 599,
+        "rating": "4.7",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "84",
+        "name": "Lapis Lazuli Earrings",
+        "description": "Royal lapis lazuli earrings with gold setting",
+        "image": "/images/product/earrings/earring-18.jpg",
+        "price": 399,
+        "rating": "4.5",
+        "reviewCount": "16k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "85",
+        "name": "Labradorite Pendant",
+        "description": "Mystical labradorite pendant with white gold chain",
+        "image": "/images/product/necklaces/necklace-11.jpg",
+        "price": 699,
+        "rating": "4.8",
+        "reviewCount": "24k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "86",
+        "name": "Obsidian Bracelet",
+        "description": "Sleek obsidian bracelet with sterling silver links",
+        "image": "/images/product/bracelets/bracelet-20.jpg",
+        "price": 499,
+        "rating": "4.2",
+        "reviewCount": "15k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "87",
+        "name": "Rhodonite Ring",
+        "description": "Chic rhodonite ring with yellow gold band",
+        "image": "/images/product/rings/ring-20.jpg",
+        "price": 599,
+        "rating": "4.6",
+        "reviewCount": "19k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "88",
+        "name": "Green Tourmaline Necklace",
+        "description": "Enchanting green tourmaline necklace with rose gold chain",
+        "image": "/images/product/necklaces/necklace-19.jpg",
+        "price": 799,
+        "rating": "4.7",
+        "reviewCount": "21k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "89",
+        "name": "Hematite Earrings",
+        "description": "Sleek hematite earrings with silver setting",
+        "image": "/images/product/earrings/earring-19.jpg",
+        "price": 299,
+        "rating": "4.4",
+        "reviewCount": "17k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "90",
+        "name": "Citrine Bracelet",
+        "description": "Radiant citrine bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-21.jpg",
+        "price": 999,
+        "rating": "4.8",
+        "reviewCount": "26k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "91",
+        "name": "Blue Sapphire Ring",
+        "description": "Exquisite blue sapphire ring with white gold band",
+        "image": "/images/product/rings/ring-21.jpg",
+        "price": 799,
+        "rating": "4.5",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "92",
+        "name": "Rose Quartz Necklace",
+        "description": "Lovely rose quartz necklace with silver chain",
+        "image": "/images/product/necklaces/necklace-20.jpg",
+        "price": 599,
+        "rating": "4.7",
+        "reviewCount": "22k",
+        "isFavourite": false,
+        "category": "Necklaces",
+        "inBag": false
+
+    },
+    {
+        "id": "93",
+        "name": "Black Pearl Earrings",
+        "description": "Timeless black pearl earrings with gold setting",
+        "image": "/images/product/earrings/earring-20.jpg",
+        "price": 399,
+        "rating": "4.2",
+        "reviewCount": "15k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "94",
+        "name": "Smokey Quartz Bracelet",
+        "description": "Chic smokey quartz bracelet with rose gold links",
+        "image": "/images/product/bracelets/bracelet-22.jpg",
+        "price": 699,
+        "rating": "4.6",
+        "reviewCount": "19k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "95",
+        "name": "Apatite Ring",
+        "description": "Gorgeous apatite ring with yellow gold band",
+        "image": "/images/product/rings/ring-22.jpg",
+        "price": 499,
+        "rating": "4.3",
+        "reviewCount": "18k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "96",
+        "name": "Amber Pendant",
+        "description": "Unique amber pendant with delicate chain",
+        "image": "/images/product/necklaces/necklace-12.jpg",
+        "price": 599,
+        "rating": "4.5",
+        "reviewCount": "21k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    },
+    {
+        "id": "97",
+        "name": "Malachite Earrings",
+        "description": "Striking malachite earrings with silver setting",
+        "image": "/images/product/earrings/earring-21.jpg",
+        "price": 399,
+        "rating": "4.4",
+        "reviewCount": "16k",
+        "isFavourite": false,
+        "category": "Earrings",
+        "inBag": false
+
+    },
+    {
+        "id": "98",
+        "name": "Jasper Bracelet",
+        "description": "Earthy jasper bracelet with gold links",
+        "image": "/images/product/bracelets/bracelet-23.jpg",
+        "price": 799,
+        "rating": "4.7",
+        "reviewCount": "23k",
+        "isFavourite": false,
+        "category": "Bracelets",
+        "inBag": false
+
+    },
+    {
+        "id": "99",
+        "name": "Turquoise Ring",
+        "description": "Bohemian turquoise ring with rose gold band",
+        "image": "/images/product/rings/ring-23.jpg",
+        "price": 499,
+        "rating": "4.5",
+        "reviewCount": "19k",
+        "isFavourite": false,
+        "category": "Rings",
+        "inBag": false
+
+    },
+    {
+        "id": "100",
+        "name": "Sunburst Pendant",
+        "description": "Radiant sunburst pendant with white gold chain",
+        "image": "/images/product/necklaces/necklace-13.jpg",
+        "price": 599,
+        "rating": "4.6",
+        "reviewCount": "20k",
+        "isFavourite": false,
+        "category": "Pendants",
+        "inBag": false
+
+    }
+]
+

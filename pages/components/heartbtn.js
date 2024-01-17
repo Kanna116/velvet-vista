@@ -1,22 +1,13 @@
-import { useState } from "react";
 import { IoHeartOutline, IoHeartSharp } from "react-icons/io5";
-const HeartBtn = () => {
 
-    const [isLiked, setIsLiked] = useState(false);
-
-    const toggleLiked = () => {
-        setIsLiked(prevState => !prevState)
-    }
+const HeartBtn = ({ isFavourite }) => {
 
     return (
-        <div className='flex relative h-full aspect-square p-3 items-center justify-center '
-            onClick={toggleLiked}>
+        <div className='flex relative h-full aspect-square p-3 items-center justify-center '>
             <span className=' flex items-center justify-center text-black '>
-                {isLiked ? <IoHeartSharp /> : <IoHeartOutline />}
+                {isFavourite ? <IoHeartSharp /> : <IoHeartOutline />}
             </span>
-
-
-        </div>
+        </div >
     )
 }
 

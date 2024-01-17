@@ -10,15 +10,14 @@ const Navbar = () => {
     const [bag, setBag] = useState(false);
     const toggleBag = () => {
         setBag(prevState => !prevState)
-
     }
 
     return (
         <>
-            <div className="navbar w-full  flex items-center justify-between  px-20 py-4  fixed top-0 z-50  transition-all duration-300 font-normal   [&>*]:font-normal">
+            <div className="navbar w-full bg-[#000000aa]   flex items-center justify-between  px-20 py-4  fixed top-0 z-50  transition-all duration-300 font-normal   [&>*]:font-normal">
                 <ul className="w-full flex items-center justify-start list-none gap-[2vw]  text-xs   uppercase font-primary ">
-                    <li className="velvet-effect">Women</li>
-                    <li className="velvet-effect">Men</li>
+                    <li className="velvet-effect"><Link href={'/pages/women'} > Women</Link></li>
+                    <li className="velvet-effect"><Link href={'/pages/men'} > Men</Link></li>
                     <li className="velvet-effect">Gifts</li>
                     <li className="velvet-effect">Collections</li>
                     <li className="velvet-effect">Curated Shops</li>
@@ -38,10 +37,13 @@ const Navbar = () => {
                         <span className='text-xl font-bold'><CiSearch /></span>
                         Search
                     </li>
-                    <li className='flex items-center justify-center gap-1 velvet-effect'>
-                        <span className='text-xl font-bold '><CiHeart /></span>
-                        Wishlist
+                    <li className='flex items-center justify-center  velvet-effect'>
+                        <Link href={'/pages/wishlist'}  className="flex items-center justify-center gap-1">
+                            <span className='text-xl font-bold '><CiHeart /></span>
+                            Wishlist
+                        </Link>
                     </li>
+
                     <li className='flex items-center justify-center gap-1 velvet-effect'>
                         <span className='text-xl font-bold'><CiUser /></span>
                         Account
@@ -51,8 +53,9 @@ const Navbar = () => {
                         <span className='text-xl font-bold'><IoBagHandleOutline /></span>
                         Bag
                     </li>
+
                 </ul>
-                <Bag bag={bag} toggle={toggleBag}/>
+                <Bag bag={bag} toggle={toggleBag} />
 
 
             </div>

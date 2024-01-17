@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Bracelets",
+        "image": "category-6.webp",
+        "category": "Bracelets",
+        "gender": "men"
+    },
+    {
+        "title": "Rings",
+        "image": "category-7.webp",
+        "category": "Rings",
+        "gender": "men"
+    },
+    {
+        "title": "Necklaces",
+        "image": "category-8.webp",
+        "category": "Necklaces",
+        "gender": "men"
+    },
+    {
+        "title": "Earrings",
+        "image": "category-9.webp",
+        "category": "Earrings",
+        "gender": "men"
+    },
+    {
+        "title": "All Products",
+        "image": "category-10.webp",
+        "category": "all",
+        "gender": "men"
+    },
+    {
+        "title": "Bracelets",
+        "image": "category-1.webp",
+        "category": "Bracelets",
+        "gender": "women"
+    },
+    {
+        "title": "Rings",
+        "image": "category-2.webp",
+        "category": "Rings",
+        "gender": "women"
+    },
+    {
+        "title": "Necklaces",
+        "image": "category-3.webp",
+        "category": "Necklaces",
+        "gender": "women"
+    },
+    {
+        "title": "Earrings",
+        "image": "category-4.webp",
+        "category": "Earrings",
+        "gender": "women"
+    },
+    {
+        "title": "All Products",
+        "image": "category-5.webp",
+        "category": "all",
+        "gender": "women"
+    }
+]
+
+
+

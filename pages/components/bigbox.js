@@ -1,14 +1,16 @@
 import Image from 'next/image';
-import React from 'react'
+import Link from 'next/link';
 
 const BigBox = (props) => {
-  const { title, desc, image, width } = props;
+  const { title, desc, image, width, link } = props;
   return (
     <div className={`w-1/2 h-full relative p-14 text-white flex items-start justify-end flex-col gap-5 bg-gradient-to-t from-[#000000aa] to-[transparent] w-${width}`}>
       <h2 className='text-xl font-secondary'>{title}</h2>
       <p className={`text-sm w-${width}`}>{desc}</p>
       <button className='border-white border-b-2 text-sm font-semibold uppercase '>
-        Shop Now
+        <Link href={`${link}`} >
+          Shop Now
+        </Link>
       </button>
 
       <Image
