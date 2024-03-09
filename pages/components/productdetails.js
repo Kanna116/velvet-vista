@@ -9,7 +9,7 @@ const ProductDetails = ({ category, description, id, isFavourite, image, name, p
 
 
     return (
-        <div className="product-details w-2/5 h-screen pl-20 py-5 sticky top-[70px] text-[#999999]">
+        <div className="product-details lg:w-2/5 md:w-2/5 w-full lg:h-screen md:h-screen h-fit lg:pl-20 md:pl-10 px-0 py-5 sticky top-[70px] text-[#999999]">
             <div className='w-full h-full py-5 flex flex-col gap-5'>
                 <h1 className='font-secondary text-xl text-black'>{name}</h1>
                 <p className='text-sm '>{description}</p>

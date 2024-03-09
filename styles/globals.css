@@ -98,18 +98,19 @@ body {
   scrollbar-color: var(#1b1b1b);
 }
 
-body::-webkit-scrollbar {
-  width: 10px
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: transparent;
   border-radius: 20px;
   background: transparent;
   transition: all 500ms ease;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #1b1b1b;
   border-radius: 20px;
   border: 1px solid #fff;

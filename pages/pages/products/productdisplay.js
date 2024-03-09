@@ -5,7 +5,7 @@ import Footer from '../../components/footer'
 import Navbar from '../../components/navbar'
 import ProductDetails from '../../components/productdetails'
 
-const ProductDisplay = (product) => {
+const ProductDisplay = ( product ) => {
 
     const { image } = product
 
@@ -32,9 +32,9 @@ const ProductDisplay = (product) => {
             {
                 isModelOpen && <Modal image={image} modalClose={handleModal} />
             }
-            <div className="display-product w-full  min-h-screen  mt-[70px] px-20 py-10 flex relative">
-                <div className="image-container w-3/5   ">
-                    <ul className='w-full h-fit flex flex-wrap gap-2 [&>li]:w-[49%] [&>li]:aspect-square [&>li]:flex-shrink-0 [&>li:first-child]:w-full [&>li]:bg-[#e3e3e333] [&>li]:overflow-hidden '>
+            <div className="display-product w-full  min-h-screen  mt-[70px] lg:px-20 md:px-14 px-[24px] py-10 flex lg:flex-row md:flex-row flex-col relative">
+                <div className="image-container lg:w-3/5 md:w-3/5 w-full">
+                    <ul className='w-full h-fit flex lg:flex-wrap md:flex-wrap flex-nowrap gap-2 lg:[&>li]:w-[49%] md:[&>li]:w-[49%] [&>li]:w-full [&>li]:aspect-square [&>li]:flex-shrink-0 [&>li:first-child]:w-full [&>li]:bg-[#e3e3e333] [&>li]:overflow-hidden overflow-x-scroll lg:overflow-x-hidden md:overflow-x-hidden justify-between scroll-smooth snap-x [&>li]:snap-center snap-mandatory'>
                         <li
                             onClick={() => handleModal()}
                         >
