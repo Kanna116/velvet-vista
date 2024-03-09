@@ -53,7 +53,7 @@ const Category = () => {
 
                     <SortingBtn setSortingWay={setSortingWay} />
 
-                    <div className="product-container w-full min-h-screen grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-12  px-[24px] lg:px-[94px] md:px-[64px] place-items-center  mt-8 items-center">
+                    <div className="product-container w-full min-h-screen grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-12  px-[24px] lg:px-[94px] md:px-[64px] place-items-center mt-8">
                         {allCategoryProducts}
                     </div>
                 </div>

@@ -24,20 +24,21 @@ const CheckOut = () => {
             <>
                 <Navbar />
                 <div className='w-screen mt-[69px] relative mb-12'>
+
                     <div className='product-hero-section w-full h-[45vh] relative'>
                         <Image
-                            src={'/images/category/banner/women/all.webp'}
+                            src={`/images/category/banner/women/all.webp`}
                             fill={true}
                             alt='product section hero image'
-                            className='h-full w-full object-cover '
+                            className='h-full w-full object-cover object-center'
                         />
                         <div className='w-full h-full absolute top-0 left-0  bg-gradient-to-b from-transparent to-[#00000099]'></div>
 
-                        <h1 className='my-10 text-3xl  absolute z-10 bottom-10 left-20 font-semibold text-white tracking-wide'>Bag It Buy It</h1>
+                        <h1 className='my-10 text-3xl w-3/4  absolute z-10 bottom-10 lg:left-20 md:left-16 left-1/2 -translate-x-1/2 lg:-translate-x-0 md:-translate-x-0 font-semibold text-white tracking-wide capitalize'>Bag It Buy It</h1>
                     </div>
 
                     {/* Bagged products */}
-                    <div className="product-container w-full min-h-[20vh] grid grid-cols-4 gap-10 px-20 mt-16 relative">
+                    <div className="product-container relative w-full min-h-[30vh] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-12  px-[24px] lg:px-[94px] md:px-[64px] place-items-center  mt-8 items-center">
                         {
                             bagItems.length !== 0 ?
                                 allBagItems :
