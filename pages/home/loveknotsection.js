@@ -31,7 +31,7 @@ const LoveKnotSection = () => {
                     {/*  */}
                     <LoveknotCard />
                 </div>
-                <div className="text-container lg:w-1/2 md:w-1/2 w-full flex flex-col items-start justify-between gap-5 px-10 py-20 self-start">
+                <div className="text-container lg:w-1/2 md:w-3/4 w-full flex flex-col items-start justify-between gap-5 px-10 py-20 self-start">
                     <h3 className='text-xl font-secondary'>Love Knot</h3>
                     <p className='text-sm text-zinc-600'>In reclaimed silver, gold and diamonds, hearts will be glowing.</p>
                     <button className='border-b-2 border-zinc-500 text-sm font-semibold text-zinc-500' >

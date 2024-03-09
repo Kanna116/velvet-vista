@@ -21,15 +21,15 @@ const StickySection = () => {
     }
     return (
         <>
-            <div className='w-[100vw] h-[350vh]  flex flex-wrap relative '>
+            <div className='w-screen lg:h-[350vh] md:h-[350vh] h-fit  flex flex-wrap lg:flex-row md:flex-row flex-col relative '>
 
-                <div className=" w-1/2 h-[125vh] flex flex-col items-start justify-center px-32 gap-5 bg-white z-10 shrink-0 ">
+                <div className=" lg:w-1/2 md:w-1/2 w-full lg:h-[125vh] md:h-[125vh] h-fit flex flex-col items-start justify-center lg:px-32 md:px-16 px-10 py-10 gap-5 bg-white z-10 shrink-0 ">
                     <h1 className='font-secondary text-4xl text-zinc-700'>A Legendary Gift</h1>
                     <p className='text-sm text-zinc-500'>So the legend goes, the Naga Dragon sits atop a volcano by day, fiercely guarding his people. Each night, he dives into the ocean to visit his true love, the Pearl. Each morning, as he flies back to his volcano, he nurtures the ground with water from his scales.</p>
                     <p className='text-sm text-zinc-500'>Inspired by this story, our hand-carved Naga pieces symbolize love, protection and prosperity for their wearer.</p>
                     <button className='border-b-[2px] border-black font-semibold text-sm text-zinc-500 uppercase'>Discover NAGA</button>
                 </div>
-                <div className=" w-1/2 h-[125vh] overflow-hidden z-10 shrink-0 sticky top-0 " >
+                <div className=" lg:w-1/2 md:w-1/2 w-full lg:h-[125vh] md:h-[125vh] h-[50vh] overflow-hidden z-10 shrink-0 lg:sticky md:sticky relative top-0 " >
                     <Image
                         src={`/images/sticky-images/naga.webp`}
                         fill={true}
@@ -37,7 +37,7 @@ const StickySection = () => {
                         className='w-full h-full object-cover'
                     />
                 </div>
-                <div className=" w-1/2 h-[125vh] overflow-hidden z-10 shrink-0 sticky top-0 " >
+                <div className=" lg:w-1/2 md:w-1/2 w-full lg:h-[125vh] md:h-[125vh] h-[50vh] overflow-hidden z-10 shrink-0 lg:sticky md:sticky relative top-0 " >
                     <Image
                         src={`/images/sticky-images/naga-2.webp`}
                         fill={true}
@@ -46,13 +46,13 @@ const StickySection = () => {
 
                     />
                 </div>
-                <div className=" w-1/2 h-[125vh] p-[10vw] z-20  bg-white" >
+                <div className=" lg:w-1/2 md:w-1/2 w-full lg:h-[125vh] md:h-[125vh] h-fit lg:p-[10vw] md:p-[5vw] p-[24px]  z-20  bg-white" >
                     <BigBox {...newCollection} />
                 </div>
 
 
 
-                <div className="h-[100vh] w-full z-40" >
+                <div className="h-fit md;h-[100vh] lg:h-[100vh] w-full z-40" >
                     <BigBox {...footerBox} width='full' />
                 </div>
 

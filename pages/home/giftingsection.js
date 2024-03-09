@@ -19,7 +19,7 @@ const GiftingSection = () => {
 
     ]
     return (    
-        <div className="w-screen min-h-screen flex lg:flex-row md:flex-row flex-col [&>*]:shrink-0">
+        <div className="w-screen min-h-screen flex lg:flex-row md:flex-row flex-col ">
             {giftData.map((gift, index) => <BigBox key={index} {...gift} />)}
         </div>
     )
