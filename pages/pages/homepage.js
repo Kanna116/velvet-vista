@@ -1,7 +1,7 @@
 import { memo } from 'react'
 // import Footer from '../components/footer'
 import Navbar from '../components/navbar'
-// import CategorySection from '../home/category-section'
+import CategorySection from '../home/category-section'
 import CollectionSection from '../home/collectionsection'
 import GiftingSection from '../home/giftingsection'
 import HeroSection from '../home/herosection'
@@ -14,7 +14,7 @@ const HomePage = () => {
         <>
             <Navbar />
             <HeroSection />
-            {/* <CategorySection /> */}
+            <CategorySection />
             <GiftingSection />
             <LoveKnotSection />
             <CollectionSection />
