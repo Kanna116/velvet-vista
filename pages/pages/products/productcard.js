@@ -32,7 +32,7 @@ const ProductCard = ({ description, id, name, price, image, isFavourite, inBag }
                         <h3 className='text-sm mb-3'>{description}</h3>
                         <h4 className='font-medium'>$ {price} <span className='line-through font-normal text-sm opacity-50 ml-2'> {price + 300}</span></h4>
                     </div>
-                    <div className='absolute rounded-full bg-[#fff] z-20 bottom-[10%] left-1/3  -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-[0_0px_30px_0px_#00000030]'>
+                    <div className='absolute rounded-full bg-[#fff] z-20 bottom-[10%] left-1/4  -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-[0_0px_30px_0px_#00000030]'>
                         <button
                             onClick={(e) => {
                                 e.preventDefault();
@@ -42,7 +42,7 @@ const ProductCard = ({ description, id, name, price, image, isFavourite, inBag }
                             <HeartBtn id={id} isFavourite={isFavourite} />
                         </button>
                     </div>
-                    <div className='absolute rounded-full bg-[#fff] z-20 bottom-[10%] right-1/3  -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-[0_0px_30px_0px_#00000030]'>
+                    <div className='absolute rounded-full bg-[#fff] z-20 bottom-[10%] right-1/4  -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-[0_0px_30px_0px_#00000030]'>
                         <AddToBagBtn id={id} inBag={inBag} />
                     </div>
 
