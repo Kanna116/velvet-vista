@@ -56,7 +56,7 @@ const CheckOut = () => {
                     subtotal > 0 ?
                         <>
                             <hr />
-                            <div className='my-20 px-32 [&>*]:flex [&>*]:items-center [&>*]:justify-between'>
+                            <div className='my-20 lg:px-32 md:px-20 px-[24px] [&>*]:flex [&>*]:items-center [&>*]:justify-between'>
                                 <h1 className='mb-5 text-xl'>Subtotal :  <span className='w-32'>$ {subtotal}</span></h1>
                                 <h3>GST :  <span className='w-32'>$ {GST}</span></h3>
                                 <h3>Delivery Charges:  <span className='w-32'>$ {deviveryCharges}</span></h3>
