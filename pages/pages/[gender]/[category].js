@@ -1,12 +1,11 @@
-import Image from 'next/image';
+import Banner from '@/pages/components/banner';
+import ProductContext from '@/pages/context/productContext';
 import { useRouter } from 'next/router';
 import { useContext, useState } from 'react';
 import Footer from '../../components/footer';
 import Navbar from '../../components/navbar';
-import ProductCard from '../products/productcard';
 import SortingBtn from '../../components/sortingbtn';
-import Banner from '@/pages/components/banner';
-import ProductContext from '@/pages/context/productContext';
+import ProductCard from '../products/productcard';
 
 const Category = () => {
     const router = useRouter();
@@ -54,7 +53,7 @@ const Category = () => {
 
                     <SortingBtn setSortingWay={setSortingWay} />
 
-                    <div className="product-container w-full min-h-screen grid grid-cols-4 gap-10 px-20 mt-8">
+                    <div className="product-container w-full min-h-screen grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-12  px-[24px] lg:px-[94px] md:px-[64px] place-items-center  mt-8 items-center">
                         {allCategoryProducts}
                     </div>
                 </div>
