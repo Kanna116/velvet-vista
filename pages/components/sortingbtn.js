@@ -9,7 +9,7 @@ const SortingBtn = ({ setSortingWay }) => {
 
     return (
         <>
-            <div className='w-full h-14 px-20 flex items-center justify-end mt-8'>
+            <div className='w-full h-14 lg:px-20 md:px-20 px-[24px] flex items-center justify-end mt-8'>
                 <span>Sort By :</span>
                 <select
                     name="sorting"

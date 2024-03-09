@@ -7,7 +7,7 @@ const Footer = () => {
    
 
     return (
-        <footer className='w-full lg:h-[70vh] md:h-[70vh] h-fit lg:px-10 md:px-7 px-5 py-20 flex items-center justify-between lg:gap-10 md:gap-5 gap-5 text-[#707070] flex-wrap'>
+        <footer className='w-full lg:h-[70vh] md:h-[70vh] h-fit lg:px-10 md:px-7 px-5 py-20 flex items-center justify-between gap-10 text-[#707070] flex-wrap'>
             <div className="footer-one lg:w-1/3 md:w-1/3 w-full h-full  mr-auto flex flex-col items-start justify-between gap-10 lg:gap-0 md:gap-0">
 
                 <Newsletter />
