@@ -144,3 +144,16 @@ body::-webkit-scrollbar-thumb {
   outline: 0;
   border: none;
 }
+
+
+@media (max-width: 770px) {
+  .navbar > * {
+    color: #000;
+    fill: #000;
+  }
+  
+  .navbar:hover>* {
+    color: #000;
+    fill: #000;
+  }
+}

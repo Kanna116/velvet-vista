@@ -6,8 +6,8 @@ const CategoryCard = (props) => {
     const { title, image, category,gender } = props;
 
     return (
-        <Link href={`/pages/${gender}/${category}`}  className='h-full w-full'>
-            <div className="card w-full h-full max-h-[50vh] max-w-[300px]  flex flex-col items-center justify-between">
+        <Link href={`/pages/${gender}/${category}`}  className='h-fit w-fit shrink-0'>
+            <div className="card w-full h-full lg:max-h-[50vh] md:max-h-[40vh] max-h-[30vh] lg:max-w-[200px] md:max-w-[150px] max-w-[40vw]  flex flex-col items-center justify-between">
                 <div className='w-full aspect-square overflow-hidden'>
                     <Image
                         src={`/images/category/${image}`}

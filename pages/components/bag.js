@@ -19,6 +19,7 @@ const Bag = (props) => {
             document.body.style.overflowX = 'hidden';
 
         };
+        
     }, [props.bag]);
 
 
@@ -26,7 +27,7 @@ const Bag = (props) => {
     allBagItems.map(item => subTotal += item.price)
 
     return (
-        <div className={`w-[450px] h-full bg-white flex flex-col items-start justify-between fixed top-0 right-0   z-[55] ${moveBag}  duration-300 [&>*]:text-black`}>
+        <div className={`lg:w-[450px] md:w-[450px] w-full h-full bg-white flex flex-col items-start justify-between fixed top-0 right-0   z-[55] ${moveBag}  duration-300 [&>*]:text-black`}>
             <div className="bag-details w-full flex items-center justify-between px-16 py-5">
                 <h1 className='font-normal text-2xl '>Shopping Bag</h1>
                 <span className='text-lg h-full flex items-center justify-center '

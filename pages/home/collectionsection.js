@@ -18,7 +18,7 @@ const CollectionSection = () => {
 
     ]
     return (
-        <div className="w-screen h-screen flex ">
+        <div className="w-screen h-screen flex lg:flex-row md:flex-row flex-col">
             {collectionData.map((collection, index) => <BigBox key={index} {...collection} />)}
         </div>
     )
