@@ -7,8 +7,8 @@ const Footer = () => {
    
 
     return (
-        <footer className='w-full h-[70vh] px-10 py-20 flex items-center justify-between gap-10 text-[#707070]'>
-            <div className="footer-one w-1/3 h-full  mr-auto flex flex-col items-start justify-between">
+        <footer className='w-full lg:h-[70vh] md:h-[70vh] h-fit lg:px-10 md:px-7 px-5 py-20 flex items-center justify-between lg:gap-10 md:gap-5 gap-5 text-[#707070] flex-wrap'>
+            <div className="footer-one lg:w-1/3 md:w-1/3 w-full h-full  mr-auto flex flex-col items-start justify-between gap-10 lg:gap-0 md:gap-0">
 
                 <Newsletter />
 
@@ -18,9 +18,9 @@ const Footer = () => {
                     <h2 className='text-sm'>Phone: 1-888-838-3022</h2>
                     <h2 className='text-sm'>Hours: Monday – Thursday: 9AM – 7PM ET, Friday: 9AM – 2PM ET</h2>
                 </div>
-                <h1 className='text-sm text-black'> Klax Velvet Vista</h1>
+                <h1 className='text-sm text-black lg:block md:block hidden '> Klax Velvet Vista</h1>
             </div>
-            <div className="footer-two h-full w-1/4  flex flex-col items-start justify-start gap-20">
+            <div className="footer-two h-full lg:w-1/4 md:w-1/4 w-full  flex flex-col items-start justify-start lg:gap-20 md:gap-20 gap-5">
                 <ul className='[&>li]:text-sm font-light'>
                     <h1 className='font-medium text-sm mb-2 tracking-wide'>ABOUT US</h1>
                     <li>Store Locator</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                     <li>Provenance Claim</li>
                 </ul>
             </div>
-            <div className="footer-three h-full w-1/4  flex flex-col items-start justify-start gap-20">
+            <div className="footer-three h-full lg:w-1/4 md:w-1/4 w-full  flex flex-col items-start justify-start lg:gap-20 md:gap-20 gap-5">
                 <ul className='[&>li]:text-sm font-light'>
                     <h1 className='font-medium text-sm mb-2 tracking-wide'>HELP</h1>
                     <li>Contact Us</li>

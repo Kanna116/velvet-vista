@@ -1,5 +1,5 @@
 import { memo } from 'react'
-// import Footer from '../components/footer'
+import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import CategorySection from '../home/category-section'
 import CollectionSection from '../home/collectionsection'
@@ -19,7 +19,7 @@ const HomePage = () => {
             <LoveKnotSection />
             <CollectionSection />
             <StickySection />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
