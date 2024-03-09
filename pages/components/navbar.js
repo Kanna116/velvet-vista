@@ -1,21 +1,35 @@
 import Link from "next/link";
-import { useState } from "react";
-import { CiHeart, CiSearch, CiUser } from "react-icons/ci";
-import { IoBagHandleOutline } from "react-icons/io5";
+import { useEffect, useState } from "react";
+import { CiHeart, CiMenuFries, CiSearch, CiUser } from "react-icons/ci";
+import { IoBagHandleOutline, IoClose } from "react-icons/io5";
 import Bag from "./bag";
 
 
 const Navbar = () => {
 
     const [bag, setBag] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const toggleBag = () => {
         setBag(prevState => !prevState)
     }
 
+
+    useEffect(() => {
+        if (isMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        }
+        return () => {
+            document.body.style.overflow = 'visible';
+            document.body.style.overflowX = 'hidden';
+
+        };
+        
+    }, [isMenuOpen]);
+
     return (
         <>
-            <div className="navbar w-full bg-[#000000aa]   flex items-center justify-between  px-20 py-4  fixed top-0 z-50  transition-all duration-300 font-normal   [&>*]:font-normal">
-                <ul className="w-full flex items-center justify-start list-none gap-[2vw]  text-xs   uppercase font-primary ">
+            <div className="navbar w-full lg:bg-[#000000aa] md:bg-[#000000aa]  bg-white flex items-center justify-between  lg:px-20 px-[24px] py-4  fixed top-0 z-50  transition-all duration-300 font-normal   [&>*]:font-normal">
+                <ul className="w-full lg:flex md:flex hidden items-center justify-start list-none gap-[2vw]  text-xs   uppercase font-primary ">
                     <li className="velvet-effect"><Link href={'/pages/women'} > Women</Link></li>
                     <li className="velvet-effect"><Link href={'/pages/men'} > Men</Link></li>
                     <li className="velvet-effect">Gifts</li>
@@ -23,7 +37,7 @@ const Navbar = () => {
                     <li className="velvet-effect">Curated Shops</li>
                 </ul>
 
-                <Link href={'/'} className="mx-10 w-fit cursor-pointer" >
+                <Link href={'/'} className="lg:mx-10 mx-0 w-fit cursor-pointer" >
                     <span className="logo  z-50 ">
                         <svg width="452" height="175" viewBox="0 0 452 175" xmlns="http://www.w3.org/2000/svg" className="hover:scale-110 h-full w-24 object-contain duration-200 ease-in">
                             <path d="M27.9125 149.175L7.7875 28.25H0.35V26.5H29.225V28.25H21.9625L35.2625 113.562H34.475L46.6375 28.25H39.725V26.5H56.6125V28.25H48.5625L30.8 149.175H27.9125ZM81.401 150.575C77.801 150.575 74.701 149.425 72.101 147.125C69.551 144.825 67.451 141.725 65.801 137.825C64.201 133.925 63.001 129.525 62.201 124.625C61.451 119.725 61.076 114.7 61.076 109.55C61.076 102.85 61.626 97.025 62.726 92.075C63.826 87.075 65.301 82.95 67.151 79.7C69.051 76.45 71.176 74.025 73.526 72.425C75.926 70.825 78.376 70.025 80.876 70.025C83.826 70.025 86.426 70.95 88.676 72.8C90.976 74.65 92.876 77.15 94.376 80.3C95.926 83.45 97.076 87.025 97.826 91.025C98.626 95.025 99.026 99.15 99.026 103.4C99.026 104.2 99.026 105 99.026 105.8C99.026 106.6 99.001 107.425 98.951 108.275H71.426V106.775H87.776C87.776 99.525 87.576 93.25 87.176 87.95C86.826 82.65 86.151 78.575 85.151 75.725C84.151 72.875 82.726 71.45 80.876 71.45C79.126 71.45 77.626 72.8 76.376 75.5C75.126 78.2 74.176 82.3 73.526 87.8C72.876 93.25 72.551 100.125 72.551 108.425C72.551 113.675 72.626 118.725 72.776 123.575C72.926 128.425 73.326 132.75 73.976 136.55C74.676 140.3 75.726 143.275 77.126 145.475C78.576 147.675 80.551 148.775 83.051 148.775C86.901 148.775 89.951 147.75 92.201 145.7C94.501 143.6 96.026 141.325 96.776 138.875L98.051 139.625C96.951 142.575 95.051 145.15 92.351 147.35C89.651 149.5 86.001 150.575 81.401 150.575ZM104.571 149V147.5H110.346V38H104.571V36.5H121.521V147.5H127.371V149H104.571ZM152.615 149.3L137.465 71.975H131.915V70.475H154.94V71.975H149.54L158.615 122.3L167.69 71.975H162.065V70.475H174.59V71.975H169.415L155.015 149.3H152.615ZM199.907 150.575C196.307 150.575 193.207 149.425 190.607 147.125C188.057 144.825 185.957 141.725 184.307 137.825C182.707 133.925 181.507 129.525 180.707 124.625C179.957 119.725 179.582 114.7 179.582 109.55C179.582 102.85 180.132 97.025 181.232 92.075C182.332 87.075 183.807 82.95 185.657 79.7C187.557 76.45 189.682 74.025 192.032 72.425C194.432 70.825 196.882 70.025 199.382 70.025C202.332 70.025 204.932 70.95 207.182 72.8C209.482 74.65 211.382 77.15 212.882 80.3C214.432 83.45 215.582 87.025 216.332 91.025C217.132 95.025 217.532 99.15 217.532 103.4C217.532 104.2 217.532 105 217.532 105.8C217.532 106.6 217.507 107.425 217.457 108.275H189.932V106.775H206.282C206.282 99.525 206.082 93.25 205.682 87.95C205.332 82.65 204.657 78.575 203.657 75.725C202.657 72.875 201.232 71.45 199.382 71.45C197.632 71.45 196.132 72.8 194.882 75.5C193.632 78.2 192.682 82.3 192.032 87.8C191.382 93.25 191.057 100.125 191.057 108.425C191.057 113.675 191.132 118.725 191.282 123.575C191.432 128.425 191.832 132.75 192.482 136.55C193.182 140.3 194.232 143.275 195.632 145.475C197.082 147.675 199.057 148.775 201.557 148.775C205.407 148.775 208.457 147.75 210.707 145.7C213.007 143.6 214.532 141.325 215.282 138.875L216.557 139.625C215.457 142.575 213.557 145.15 210.857 147.35C208.157 149.5 204.507 150.575 199.907 150.575ZM241.488 150.35C239.638 150.35 237.813 149.975 236.013 149.225C234.263 148.525 232.788 147.15 231.588 145.1C230.438 143.05 229.863 140.05 229.863 136.1V71.975H222.288V70.475H229.863C231.163 70.475 232.438 69.45 233.688 67.4C234.938 65.35 236.063 62.7 237.063 59.45C238.113 56.15 238.863 52.675 239.313 49.025H241.113V70.475H250.488V71.975H241.113V143.675C241.113 145.425 241.513 146.675 242.313 147.425C243.163 148.125 243.988 148.475 244.788 148.475C245.788 148.475 246.813 148.175 247.863 147.575C248.913 146.925 249.613 146.4 249.963 146L250.788 147.05C249.838 148 248.563 148.775 246.963 149.375C245.363 150.025 243.538 150.35 241.488 150.35Z" />
@@ -32,13 +46,13 @@ const Navbar = () => {
                     </span>
                 </Link>
 
-                <ul className="w-full  flex items-center justify-end list-none gap-[2vw]  text-xs  uppercase font-primary  ">
+                <ul className="w-full  lg:flex md:flex hidden items-center justify-end list-none gap-[2vw]  text-xs  uppercase font-primary  ">
                     <li className='flex items-center justify-center gap-1 velvet-effect'>
                         <span className='text-xl font-bold'><CiSearch /></span>
                         Search
                     </li>
                     <li className='flex items-center justify-center  velvet-effect'>
-                        <Link href={'/pages/wishlist'}  className="flex items-center justify-center gap-1">
+                        <Link href={'/pages/wishlist'} className="flex items-center justify-center gap-1">
                             <span className='text-xl font-bold '><CiHeart /></span>
                             Wishlist
                         </Link>
@@ -56,6 +70,42 @@ const Navbar = () => {
 
                 </ul>
                 <Bag bag={bag} toggle={toggleBag} />
+
+
+
+                {/* mobile menu */}
+                <button
+                    onClick={() => setIsMenuOpen(prevVal => !prevVal)}
+                    className="text-2xl lg:hidden md:hidden block">
+                    {
+                        isMenuOpen ? <span><IoClose /></span> : <span><CiMenuFries /></span>
+                    }
+                </button>
+
+                <ul
+                    style={{ top: isMenuOpen ? '69px' : '-100%' }}
+                    className="fixed right-0 h-[80vh] w-full bg-white p-5 flex lg:hidden md:hidden flex-col items-start justify-evenly text-2xl font-semibold transition-all duration-300 -z-10 [&>li]:cursor-pointer">
+                    <li><Link href={'/pages/women'} > Women</Link></li>
+                    <li><Link href={'/pages/men'} > Men</Link></li>
+                    <li>Gifts</li>
+                    <li>Collections</li>
+                    <li>Curated Shops</li>
+
+                    <li className='w-fit'>Search</li>
+                    <li className='w-fit'>
+                        <Link href={'/pages/wishlist'}>
+                            Wishlist
+                        </Link>
+                    </li>
+
+                    <li className='w-fit'>
+                        Account
+                    </li>
+                    <li className='w-fit'
+                        onClick={toggleBag}>
+                        Bag
+                    </li>
+                </ul>
 
 
             </div>
