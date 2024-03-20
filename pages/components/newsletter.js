@@ -10,8 +10,19 @@ const Newsletter = () => {
     const [newsMail, setNewsMail] = useState('');
 
     const handleSignUp = () => {
-        alert(`Thanks for signing up  We will be sending newsletters for ${newsMail}`)
+        if (isValidEmail(newsMail)) {
+            alert(`Thanks for signing up  We will be sending newsletters for ${newsMail}`)
+        } else {
+            alert("Please enter a proper mail")
+        }
     };
+
+    //testing the regex of the email entered
+    function isValidEmail(email) {
+        const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        return regex.test(email);
+    }
+
     const handleChange = (e) => setNewsMail(e.target.value)
 
     console.warn = originalConsoleWarn;
@@ -26,8 +37,9 @@ const Newsletter = () => {
                 <input
                     type="email"
                     placeholder="Enter your email here"
-                    className="w-full shrink-0 h-full bg-transparent border-b-2 border-[#706a66aa] px-5 focus:outline-0 placeholder:text-[#666666] text-black focus:border-[#706a66]"
+                    className={`w-full shrink-0 h-full bg-transparent border-b-2 focus:border-b-4 border-[#706a66aa] px-5 focus:outline-0 placeholder:text-[#666666] text-black ${isValidEmail(newsMail) ? 'focus:border-green-500' : 'focus:border-blue-400'}`}
                     onChange={handleChange}
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                     value={newsMail}
                     name="mail"
                 />
